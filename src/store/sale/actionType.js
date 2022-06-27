@@ -1,0 +1,6 @@
+export const API_RESPONSE_SUCCESS = "API_RESPONSE_SUCCESS";       
+export const API_RESPONSE_ERROR = "API_RESPONSE_ERROR";     
+export const IMEI_SCAN = "IMEI_SCAN";            
+export const GET_SALE_LIST = "GET_SALE_LIST";
+export const CREATE_SALE_TRANSACTION = "CREATE_SALE_TRANSACTION";  
+export const GET_STORE_SALE_VIEW = "GET_STORE_SALE_VIEW";
