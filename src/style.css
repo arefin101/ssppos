@@ -1,0 +1,268 @@
+img{cursor: pointer;}
+
+.btn-icon img { height: 20px;}
+
+.vertical-top{vertical-align: top;}
+
+.vertical-middle{vertical-align: middle;}
+
+.modal-open{padding-right: 0 !important;}
+
+.gridjs-wrapper{min-height: 300px;}
+
+.gridjs-tr:last-child td{border-bottom: 1px solid #e9ebec;}
+
+.submit-btn{margin-top: 20px;}
+
+.div-bottom{}
+
+.product-modal .product-image{
+    width: 100%;
+    object-fit: contain;
+}
+thead, tbody, tfoot, tr, td, th{
+    vertical-align: top;
+}
+.billing-btns{ text-align: left;border-top: 1px solid #ddd; padding-top: 1rem; }
+
+@media (min-width: 1400px) {
+    .billing-btns{text-align: right; border: none; padding: 0;}
+}
+
+table tr td{
+    vertical-align: middle;
+}
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:last-child) > .btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.verify-radio .invalid-feedback {
+    margin-left: -80px;
+    min-width: 200px;
+}
+.version{
+    color: #cdd6f3;
+    margin-bottom: 0;
+}
+.version .btn{
+    color: #abb9e8;
+}
+.popover{
+    max-width: 250px;
+}
+.popover-btn{
+    line-height: 1.5;
+}
+#tooltipBottom > .tooltip-inner {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #062e56;
+  }
+[data-layout="vertical"][data-sidebar-size="sm"] .navbar-menu{
+    padding-top: 120px;
+}
+.spinner-box {
+    min-height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye-icon{
+    margin-right:10px; 
+    margin-left: -1px;
+    vertical-align: bottom;
+    font-size: 14px;
+    color: rgb(64, 81, 137);
+}
+.tick-icon{
+    margin-right:10px; 
+    vertical-align: bottom; 
+    background: rgb(10,179,156); 
+    border-radius: 50%;
+    color: rgb(243, 246, 249);
+}
+
+.border-red{
+    border: 1px solid #bf2155;
+}
+.icon-cursor{
+    cursor: pointer;
+}
+.cua-submit{
+    position: absolute;
+    top: 0;
+    margin-top: 28px;
+}
+.undo-icon{
+    margin-left: 5px;
+    margin-bottom: 3px;
+    vertical-align: bottom;
+    background: #f3785e;
+    border-radius: 50%;
+    color: #fff;
+    padding: 1px;
+}
+.card70vh{
+    min-height: 70vh;
+}
+.css-1pahdxg-control{
+    border-color: hsl(0, 0%, 80%) !important;
+    box-shadow: 0 0 0 1px transparent !important;
+}
+.table-hover tbody tr:hover{
+    background-color: #fff !important;
+}
+.popover {
+    max-width: fit-content !important;
+}
+.popover-body.summary-table {
+    max-height: 500px;
+    overflow: auto;
+}
+.text-red{ color: #e30404; }
+.text-mod-blue{ color: #226280; }
+.pointer{ cursor: pointer }
+.text-link:hover{ color: #226280; text-decoration: underline;}
+
+.amount {
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 992px){
+    
+    .cua-submit{
+        margin-top: 10px;
+    }
+    .cua-submit-div{
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================== JQUERY DATATABLE STYLE =================== */
+
+.dataTables_wrapper .dataTable{
+	width: 100%;
+    margin: 40px 0;
+}
+.dataTables_wrapper .dataTables_filter {
+    margin-right: 20px;
+}
+.dataTables_wrapper .dataTables_length select{
+    padding-right: 0 !important;
+}
+.dataTables_wrapper .dataTable thead{
+    background-color: var(--vz-light);
+}
+.dataTables_wrapper .dataTable thead th{
+    font-weight: 600;
+	white-space: nowrap;
+    background-color: var(--vz-table-bg);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0.75rem 0.6rem;
+    cursor: pointer;
+}
+.dataTables_wrapper .dataTable tbody tr:hover{
+    background-color: #f3f6f99c;
+}
+.dataTables_wrapper .dataTable tbody tr td{
+	white-space: nowrap;
+    background-color: var(--vz-table-bg);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0.75rem 0.6rem;
+}
+.dataTables_wrapper .dt-buttons{
+    margin-left: 20px;
+}
+
+.dataTables_wrapper .dt-buttons button{
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.5rem 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #fff;
+    border: 1px solid var(--vz-border-color);
+    outline: none;
+    padding: 5px 14px;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 0.25rem !important;
+    margin-left: 0.3rem;
+    cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+    color: #878a99 !important;
+    border: 1px solid #d2d6dc;
+    cursor: default;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    background-color: #405189;
+    color: #fff;
+    border-color: #405189;
+    font-weight: 500;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:not(.paginate_button.previous, .paginate_button.next):focus{
+    border: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:not(.paginate_button.previous, .paginate_button.next, .paginate_button.current):hover{
+    background-color: #f3f3f9;
+}
+.dataTables_wrapper .dataTables_filter input[type="search"],.dataTables_wrapper .dataTables_length select{
+    border: 1px solid #d2d6dc;
+    background-color: var(--vz-input-bg);
+    color: var(--vz-body-color);
+    line-height: 1.5;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    border-radius: 0.25rem;
+    font-size: 0.8125rem;
+    margin-left: 10px;
+}
+.dataTables_wrapper .dataTables_filter input[type="search"]::before {
+    content: "\f0d1";
+    font-family: "remixicon";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 14px;
+    color: #878a99;
+}
+.dataTables_wrapper .dataTables_paginate span.ellipsis {
+    font-size: 27px;
+    margin: 0 2px 0 5px;
+    color: #a2a6b0;
+}
